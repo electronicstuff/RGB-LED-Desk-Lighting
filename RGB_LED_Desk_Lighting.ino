@@ -1,6 +1,18 @@
 /*
 RGB LED Desk Lighting
 
+<Gareth Loader>  www.electronicstuff.info
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 This code is for driving an RGB LED Strip - Must be common positive with each colour being ground. 
 The transistors I am using are the BD139 as these have a collector current of 1.5A which is more than enough to drive 1 meter or so of the LED strip.
 The emitter of each transistor is connected to ground with the collectors each connected to the RGB LED strip.
